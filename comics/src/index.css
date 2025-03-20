@@ -30,7 +30,7 @@ header {
     .container {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         width: 100%;
     }
 
@@ -61,5 +61,41 @@ header {
 
             }
         }
+    }
+}
+
+/* Main Section */
+
+.up {
+    min-height: 150px;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h3 {
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 1.5rem;
+    }
+}
+
+.down {
+    min-height: 150px;
+    background-color: #0282f9;
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        text-transform: uppercase;
+        padding: 80px;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .icon {
+        vertical-align: middle;
+        padding-right: 5px;
     }
 }
