@@ -1,7 +1,9 @@
 export default function Footer(){
     return(
         <footer>
-            <h3>Footer</h3>
+            <section className="up-footer"></section>
+            <section className="center-footer"></section>
+            <section className="end-footer"></section>
         </footer>
     )
 }

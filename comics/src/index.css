@@ -81,7 +81,7 @@ header {
 }
 
 .down {
-    min-height: 150px;
+    min-height: 130px;
     background-color: #0282f9;
 
     ul {
@@ -97,5 +97,12 @@ header {
     .icon {
         vertical-align: middle;
         padding-right: 5px;
+    }
+
+    a {
+        margin-left: 10px;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 500;
     }
 }
