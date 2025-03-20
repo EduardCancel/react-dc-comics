@@ -25,10 +25,10 @@ body {
 /* Header */
 
 header {
+    position: relative;
 
     .container {
         display: flex;
-        justify-content: space-between;
         align-items: center;
     }
 
