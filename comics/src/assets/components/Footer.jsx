@@ -20,7 +20,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div class="footer-column-center">
+                <div className="footer-column-center">
                     <h4>DC</h4>
                     <ul>
                         <li><a href="#">Terms Of Use</a></li>
@@ -37,7 +37,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div class="footer-column">
+                <div className="footer-column">
                     <h4>SITES</h4>
                     <ul>
                         <li><a href="#">DC</a></li>
@@ -52,7 +52,9 @@ export default function Footer() {
                 </div>
             </section>
 
-            <section className="end-footer"></section>
         </footer>
+
+
+
     )
 }
