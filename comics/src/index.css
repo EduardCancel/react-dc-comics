@@ -70,14 +70,72 @@ header {
     min-height: 100px;
     background-color: #1c1c1c;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 
-    h3 {
-        font-weight: bold;
-        color: #ffffff;
-        font-size: 1.5rem;
+    .jumbotron {
+        background-image: url("../public/img/jumbotron.jpg");
+        background-size: cover;
+        height: 300px;
+        width: 100%;
     }
+
+    .container {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding: 20px 0;
+
+    }
+
+    .comic-card {
+        width: calc((100% / 6) - 15px);
+        max-width: 180px;
+        text-align: center;
+    }
+
+    .card-image {
+        width: 100%;
+    }
+
+    .card-title {
+        font-weight: bold;
+        margin-top: 10px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .comic-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 8px;
+        padding: 16px;
+        max-width: 250px;
+        text-align: center;
+    }
+
+    .btn {
+        background-color: #0282f9;
+        color: #ffffff;
+        border-style: none;
+        padding: 0.5rem 2rem 0.5rem;
+        font-weight: 800;
+        font-family: "Big Shoulders", sans-serif;
+        margin-bottom: 1rem;
+    }
+
+
 }
 
 .down {
@@ -106,61 +164,3 @@ header {
         font-weight: 500;
     }
 }
-
-/* Footer section */
-
-/* footer {
-    background-image: url(../public/img/footer-bg.jpg);
-    background-size: 100%;
-    color: white;
-    padding: 30px 0;
-    font-family: Arial, sans-serif;
-}
-
-.footer-container {
-    min-width: 250px;
-    margin-top: 0;
-    margin-left: 200px;
-    display: flex;
-}
-
-.footer-column-center {
-    margin-left: 15px;
-    margin-right: 20px;
-}
-
-footer h4 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer ul li {
-    margin-bottom: 2px;
-    font-weight: 100;
-}
-
-footer ul li a {
-    color: #797979;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-footer ul li a:hover {
-    color: white;
-}
-
-
-.footer-logo img {
-    width: 460px;
-    opacity: 0.7;
-    margin-left: 200px;
-    top: 260px;
-    position: absolute;
-} */
