@@ -1,8 +1,16 @@
+import ComicList from "./ComicList"
+
 export default function Main() {
     return (
         <main>
             <section className="up">
-                <h3>--&gt; Content goes here &lt;--</h3>
+                <div className="jumbotron"></div>
+                <div className="container-cards">
+                    < ComicList />
+                </div>
+                <div>
+                    <button className="btn">LOAD MORE</button>
+                </div>
             </section>
             <section className="down">
                 <ul>
