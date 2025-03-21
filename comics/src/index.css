@@ -40,7 +40,7 @@ header {
 
     nav#menu {
         ul {
-            padding: 2rem;
+            padding: 0.5rem;
             display: flex;
             list-style: none;
             justify-content: center;
@@ -67,7 +67,7 @@ header {
 /* Main Section */
 
 .up {
-    min-height: 150px;
+    min-height: 100px;
     background-color: #1c1c1c;
     display: flex;
     justify-content: space-evenly;
@@ -89,8 +89,8 @@ header {
         justify-content: space-evenly;
         list-style: none;
         text-transform: uppercase;
-        padding: 80px;
-        margin: 0 10px;
+        padding: 50px 90px;
+        margin: 0 90px;
         text-align: center;
     }
 
@@ -105,4 +105,62 @@ header {
         color: #ffffff;
         font-weight: 500;
     }
+}
+
+/* Footer section */
+
+footer {
+    background-image: url(../public/img/footer-bg.jpg);
+    background-size: 100%;
+    color: white;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    min-width: 250px;
+    margin-top: 0;
+    margin-left: 200px;
+    display: flex;
+}
+
+.footer-column-center {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 2px;
+    font-weight: 100;
+}
+
+footer ul li a {
+    color: #797979;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer ul li a:hover {
+    color: white;
+}
+
+
+.footer-logo img {
+    width: 460px;
+    opacity: 0.7;
+    margin-left: 200px;
+    top: 260px;
+    position: absolute;
 }
