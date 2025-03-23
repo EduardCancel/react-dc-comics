@@ -103,7 +103,6 @@ header {
         width: 100%;
         height: auto;
         object-fit: cover;
-        position: relative;
     }
 
     .card-title {
@@ -178,5 +177,83 @@ header {
         text-decoration: none;
         color: #ffffff;
         font-weight: 500;
+    }
+}
+
+
+/* Footer section */
+
+.footer-middle {
+    background-image: url('../public/img/footer-bg.jpg');
+    min-height: 400px;
+    line-height: 1.5rem;
+    display: flex;
+    padding-bottom: 3rem;
+    font-size: 0.9rem;
+    padding-left: 6rem;
+    position: relative;
+    z-index: 1;
+
+    ul {
+        margin-left: 2.5rem;
+        padding-top: 2.5rem;
+        font-family: "Big Shoulders", sans-serif;
+    }
+
+    h3 {
+        color: #ffffff;
+    }
+
+    li {
+        color: grey;
+        list-style: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .logo-bg {
+        position: absolute;
+        right: 100px;
+        top: -110px;
+        width: 600px;
+        z-index: -1;
+    }
+}
+
+
+.footer-bottom {
+    background-color: #1c1c1c;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Big Shoulders", sans-serif;
+    position: relative;
+    z-index: 2;
+
+    .btn-section {
+        display: flex;
+        padding-left: 8.5rem;
+
+        .btn {
+            font-family: "Big Shoulders", sans-serif;
+            background-color: transparent;
+            color: #ffffff;
+            border-color: #0282f9;
+            padding: 0.75rem;
+            border-width: 2px;
+            border-radius: 0;
+        }
+    }
+
+    .social-section {
+        display: flex;
+        align-items: center;
+        padding-right: 8.5rem;
+        gap: 1rem;
+        margin-bottom: 0;
+
+        h3 {
+            color: #0282f9;
+        }
     }
 }
