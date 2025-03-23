@@ -5,6 +5,9 @@ export default function Main() {
         <main>
             <section className="up">
                 <div className="jumbotron"></div>
+                <div>
+                    <button className="series-btn">CURRENT SERIRES</button>
+                </div>
                 <div className="container-cards">
                     < ComicList />
                 </div>
