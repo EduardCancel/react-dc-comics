@@ -10,4 +10,4 @@ const navHeader = [
   "NEWS",
   "SHOP",
 ];
-export default links;
+export default navHeader;
