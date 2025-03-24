@@ -1,5 +1,5 @@
 import Card from "./Card";
-import comics from '../../data/comics'
+import comics from '../data/comics'
 
 export default function ComicList() {
     const card = comics.map((element) => {
