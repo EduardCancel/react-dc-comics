@@ -7,7 +7,11 @@ export default function Header() {
                 <img src="../public/img/dc-logo.png" alt="" />
                 <nav id="menu">
                     <ul>
-
+                        {navHeader.map((link, index) => (
+                            <li key={index}>
+                                <a href="#">{link}</a>
+                            </li>
+                        ))}
                     </ul>
                 </nav>
             </div>
