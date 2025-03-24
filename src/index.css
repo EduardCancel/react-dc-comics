@@ -28,10 +28,12 @@ header {
     position: relative;
 
     .container {
+        max-width: 1200px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         width: 100%;
+        padding: 0 20px;
     }
 
     img {
@@ -117,7 +119,7 @@ header {
         max-width: 250px;
         text-align: center;
         position: relative;
-        overflow: hidden;
+
     }
 
     .card-image {
