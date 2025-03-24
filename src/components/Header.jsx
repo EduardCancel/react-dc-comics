@@ -1,6 +1,5 @@
-import navHeader from "../data/navHeader"
 
-export default function Header() {
+export default function Header({ navHeader }) {
     return (
         <header className="cotainer-header">
             <div className="container">
